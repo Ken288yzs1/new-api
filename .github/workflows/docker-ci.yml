@@ -26,7 +26,7 @@ jobs:
         id: metadata
         uses: docker/metadata-action@v5
         with:
-          images: miler/test-api
+          images: dsmmdd/test-api
           tags: |
             type=raw,value=latest
 
